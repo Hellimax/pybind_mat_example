@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: mat-cal-example
+Name: pybind-matcal-example
 Version: 0.0.1
 Summary: A test project using pybind11
 Home-page: https://github.com/Hellimax/pybind_mat_example
