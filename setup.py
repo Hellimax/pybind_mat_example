@@ -9,7 +9,7 @@ import sys
 __version__ = "0.0.1"
 
 ext_modules = [
-    Pybind11Extension("mat_cal_example",
+    Pybind11Extension("pybind_matcal_example",
         ["src/mat_cal.cpp"],
         # Example: passing in the version to the compiled code
         define_macros = [('VERSION_INFO', __version__)],
@@ -17,7 +17,7 @@ ext_modules = [
 ]
 
 setup(
-    name="mat_cal_example",
+    name="pybind_matcal_example",
     version=__version__,
     author="Harjinder Singh",
     author_email="harjindersinghs168@gmail.com",

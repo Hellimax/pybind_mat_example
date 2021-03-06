@@ -49,7 +49,7 @@ class mat_cal {
 };
 
 
-PYBIND11_MODULE(mat_cal_example, m) {
+PYBIND11_MODULE(pybind_matcal_example, m) {
     py::class_<mat_cal>(m, "mat_cal")
         .def(py::init<>())
         .def("check_add", &mat_cal::check_add)

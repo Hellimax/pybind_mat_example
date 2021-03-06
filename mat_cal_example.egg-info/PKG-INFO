@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mat-cal-example
+Version: 0.0.1
+Summary: A test project using pybind11
+Home-page: https://github.com/Hellimax/pybind_mat_example
+Author: Harjinder Singh
+Author-email: harjindersinghs168@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
