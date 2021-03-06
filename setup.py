@@ -21,7 +21,7 @@ setup(
     version=__version__,
     author="Harjinder Singh",
     author_email="harjindersinghs168@gmail.com",
-    url="https://github.com/pybind/python_example",
+    url="https://github.com/Hellimax/pybind_mat_example",
     description="A test project using pybind11",
     long_description="",
     ext_modules=ext_modules,
@@ -31,3 +31,5 @@ setup(
     cmdclass={"build_ext": build_ext},
     zip_safe=False,
 )
+
+
